@@ -9,7 +9,7 @@ namespace HappyNumberCleanCode
             
             Console.WriteLine("Enter a Number : ");
             int Number = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("Happy Number"  + " : ");
+            Console.WriteLine("Your given number"  + "  ");
             
             int result = Number;
           
@@ -19,7 +19,11 @@ namespace HappyNumberCleanCode
             }                 
             if (result == 1)
             {
-                Console.Write(Number + " ");
+                Console.Write(Number + " Happy number");
+            }
+            else
+            {
+                Console.Write(Number + " Not happy number");    
             }
             
             Console.ReadKey();
